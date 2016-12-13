@@ -1,0 +1,16 @@
+taskset -c 0 python rnn.py 1 4
+taskset -c 1 python rnn.py 5 4
+taskset -c 2 python rnn.py 9 4
+taskset -c 3 python rnn.py 13 4
+taskset -c 4 python rnn.py 17 4
+taskset -c 5 python rnn.py 21 4
+taskset -c 6 python rnn.py 25 4
+taskset -c 7 python rnn.py 29 4
+taskset -c 8 python rnn.py 33 4
+taskset -c 9 python rnn.py 37 4
+taskset -c 10 python rnn.py 41 4
+taskset -c 11 python rnn.py 45 4
+taskset -c 12 python rnn.py 49 4
+taskset -c 13 python rnn.py 53 4
+taskset -c 14 python rnn.py 57 4
+taskset -c 15 python rnn.py 61 4

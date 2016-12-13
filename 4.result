@@ -1,0 +1,4 @@
+taskset -c 0 python rnn.py 1 16
+taskset -c 1 python rnn.py 17 16
+taskset -c 2 python rnn.py 33 16
+taskset -c 3 python rnn.py 49 16
